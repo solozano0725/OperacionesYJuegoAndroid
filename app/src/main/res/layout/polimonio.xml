@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:maxLines="1"
+    tools:ignore="Deprecated">
+
+    <TextView
+        android:text="@string/polimonio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView3"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:layout_x="74dp"
+        android:layout_y="58dp" />
+
+    <EditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberSigned"
+        android:ems="10"
+        android:id="@+id/txta"
+        android:layout_marginTop="44dp"
+        android:hint="@string/a"
+        android:layout_x="4dp"
+        android:layout_y="154dp" />
+
+    <EditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/txtb"
+        android:layout_marginTop="31dp"
+        android:hint="@string/b"
+        android:layout_x="136dp"
+        android:layout_y="155dp"
+        android:inputType="number|numberSigned" />
+
+    <EditText
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberSigned"
+        android:ems="10"
+        android:layout_marginTop="66dp"
+        android:id="@+id/txtc"
+        android:hint="@string/c"
+        android:layout_x="268dp"
+        android:layout_y="157dp" />
+
+    <Button
+        android:text="@string/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="255dp"
+        android:id="@+id/btncalcular1"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="365dp"
+        android:id="@+id/txtresultado"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+</AbsoluteLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.solmayra.primerparcial2017.MainActivity">
+    <item android:title="@string/cambiarColor"
+        android:id="@+id/idcolor"
+        android:icon="@mipmap/ic_paint" />
+    <item android:title="@string/polimonio"
+        android:id="@+id/idpolinomio"
+        android:icon="@mipmap/ic_math" />
+    <item android:title="@string/acerca"
+        android:id="@+id/idacerca"
+        android:icon="@android:drawable/ic_menu_info_details" />
+</menu>
